@@ -1,38 +1,30 @@
-# System Optimizer
+# Ramanti Optimizer
 
-Welcome to System Optimizer! This tool is designed to optimize your Windows system for better performance and security.
+> A powerful Windows system optimizer that elevates performance and fortifies security.
 
-## Installation
+[![Windows](https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square&logo=windows)](https://github.com/prasangapokharel/ramanti-optimizer)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-### Step 1: Download
+## Features
 
-Download the `system_optimizer.exe` file from the [click here](https://www.pathau.com/download.php?snippet_id=048) to start download.
+- **Performance Boost** — cleans junk files, temp data, registry bloat
+- **Security Hardening** — disables vulnerable services, patches common attack vectors
+- **Startup Manager** — control which apps launch at boot
+- **One-click Optimize** — single executable, no install required
 
-### Step 2: Run as Administrator
+## Usage
 
-Right-click on the downloaded `system_optimizer.exe` file and select "Run as administrator" to ensure proper execution of the optimization tasks. 
+1. Download `system_optimizer.exe` from [Releases](https://github.com/prasangapokharel/ramanti-optimizer/releases)
+2. Run as Administrator
+3. Click **Optimize Now**
 
-### Step 3: Enter Password
+> **Note:** Always create a system restore point before running any optimizer.
 
-You will be prompted to enter a password
-```bash
-2580
-```
+## Tech Stack
 
-**Note**: You can easily copy the default password `2580` by selecting it and using the copy shortcut `Ctrl+C`.
-
-### Step 4: Successful Installation
-
-Once you've entered the correct password, the system optimizer will begin optimizing your system. After completion, you'll see a message indicating that the optimization process has been successful.
-
-## Support
-
-For any issues or inquiries, please reach out to the developer:
-
-[@prasangaramanpokharel](https://github.com/prasangapokharel)
+- Language: Python (compiled to `.exe` via PyInstaller)
+- Target: Windows 10 / 11
 
 ## License
 
-This project is licensed under the [Apache License 2.0](LICENSE).
-
-@Powered by prasangaramanpokharel
+MIT License — © 2025 Prasanga Pokharel
